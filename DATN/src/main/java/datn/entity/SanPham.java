@@ -8,6 +8,7 @@ import lombok.Setter;
 
 import java.math.BigDecimal;
 import java.sql.Date;
+import java.time.LocalDate;
 
 @Getter
 @Setter
@@ -27,10 +28,10 @@ public class SanPham {
     private BigDecimal giaNhap;
 
     @Column(name = "ngay_nhap")
-    private Date ngayNhap;
+    private LocalDate ngayNhap;
 
     @Column(name = "ngay_sua")
-    private Date ngaySua;
+    private LocalDate ngaySua;
 
     @Column(name = "mo_ta")
     private String moTa;
