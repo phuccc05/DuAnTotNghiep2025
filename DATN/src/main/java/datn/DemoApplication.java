@@ -1,4 +1,4 @@
-package datn.demo;
+package datn;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
