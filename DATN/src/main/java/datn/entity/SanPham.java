@@ -40,10 +40,10 @@ public class SanPham {
     private Boolean trangThai;
 
     @ManyToOne
-    @JoinColumn(name = "id", referencedColumnName = "id")
+    @JoinColumn(name = "id_thuong_hieu", referencedColumnName = "id")
     private ThuongHieu thuongHieu;
 
     @ManyToOne
-    @JoinColumn(name = "id", referencedColumnName = "id")
+    @JoinColumn(name = "id_danh_muc", referencedColumnName = "id")
     private DanhMuc danhMuc;
 }

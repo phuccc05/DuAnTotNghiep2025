@@ -56,5 +56,7 @@ public class DonHang {
     @JoinColumn(name = "id_dia_chi", referencedColumnName = "id")
     private DiaChiNguoiDung diaChiNguoiDung;
 
-
+    @ManyToOne
+    @JoinColumn(name = "id_nhan_vien", referencedColumnName = "id")
+    private NhanVien nhanVien;
 }

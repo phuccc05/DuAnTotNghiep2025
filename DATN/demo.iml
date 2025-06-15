@@ -14,7 +14,9 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="demo" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>
@@ -140,5 +142,9 @@
     <orderEntry type="library" name="Maven: org.glassfish.jaxb:txw2:4.0.5" level="project" />
     <orderEntry type="library" name="Maven: com.sun.istack:istack-commons-runtime:4.1.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.activation:jakarta.activation:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: com.github.gavlyukovskiy:datasource-proxy-spring-boot-starter:1.9.2" level="project" />
+    <orderEntry type="library" name="Maven: com.github.gavlyukovskiy:datasource-decorator-spring-boot-autoconfigure:1.9.2" level="project" />
+    <orderEntry type="library" name="Maven: net.ttddyy:datasource-proxy:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.modelmapper:modelmapper:3.2.2" level="project" />
   </component>
 </module>
